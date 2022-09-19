@@ -1,0 +1,31 @@
+Keybind for TriggerBot = ALT Right / ALT Left
+
+You can ask me to change the keybind of the TriggerBot.
+
+1. Open game (Valorant)
+2. Open Triggerbot
+3. To activate it, press letter k
+4. Have fun
+
+Settings:
+
+Settings => General => [Beta] RawInputBuffer => Off
+Settings => General => Enemy Highlight color => Purple
+Settings => Video => Resolution => 1920 x 1080
+
+1. Open game (Valorant)
+2. Open ValoBoss
+If the game has been opened:
+Note: Open ValoBoss.
+3. To get a beep, make sure you press the letter K when you open it
+Note: A beep is a sign that your device is loaded.
+4. Change the enemy color to Purple
+5. Defult Keybind is “Hold Left/Hold right-Alt for Triggerbot”
+6. Not working?
+Note: Download https://www.microsoft.com/en-ph/download/details.aspx?id=35
+Note: https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
+7. You need to change the original Keybind to another keybind?
+Note: Contact me in discord ticket. Please type. Please change the keybind.
+8. Need assistance?
+Note: https://discord.com/invite/krE349Atry
+Note: I’ll help you for 15 minutes per person if you join our discord server
